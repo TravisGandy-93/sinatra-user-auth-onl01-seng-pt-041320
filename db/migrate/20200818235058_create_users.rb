@@ -1,5 +1,6 @@
 class CreateUsers < ActiveRecord::Migration
   def change
-    creat_table
+    creat_table :users do |t|
+      t.string 
   end
 end
